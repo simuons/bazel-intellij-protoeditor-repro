@@ -1,0 +1,14 @@
+syntax="proto2";
+
+import "src/a.proto";
+import "src/b.proto";
+import "prefix/src/c.proto";
+import "d.proto";
+import "prefix/e.proto";
+import "x.proto";
+import "y.proto";
+import "nested/z.proto";
+import "google/protobuf/any.proto";
+import "google/api/annotations.proto";
+
+package imports;
